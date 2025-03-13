@@ -1,0 +1,79 @@
+:root {
+    --black-color: rgb(0, 0, 0);
+    --white-color: rgb(255, 255, 255);
+    --grey-background-color: rgb(132, 132, 132);
+    --banner-color: #000033;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background: linear-gradient(to bottom, var(--white-color), var(--grey-background-color));
+    color: var(--white-color);
+    min-height: 100vh;
+}
+
+header {
+    position: sticky;
+    opacity: 0.8;
+    z-index: 1000;
+    top: 0;
+    background-color: var(--banner-color);
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.logo img {
+    width: auto;
+    height: 100%;
+    object-fit: contain;
+}
+
+header .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header nav {
+    display: flex;
+    gap: 5rem;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 5rem;
+}
+
+header nav a {
+    text-decoration: none;
+    font-size: 35px;
+    padding: 8px 30px;
+    color: var(--white-color);
+    font-weight: bold;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.search img {
+    width: auto;
+    height: 100%;
+    object-fit: contain;
+}
