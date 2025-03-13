@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Markazi+Text:wght@400..700&display=swap');
+
+/*General css for whole document*/
 :root {
     --black-color: rgb(0, 0, 0);
     --white-color: rgb(255, 255, 255);
     --grey-background-color: rgb(132, 132, 132);
-    --banner-color: #000033;
+    --border-color: rgb(0, 0, 51);
+    --light-banner-color: rgb(239, 242, 254);
 }
 
 * {
@@ -12,18 +16,19 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'Dosis', sans-serif;
     background: linear-gradient(to bottom, var(--white-color), var(--grey-background-color));
-    color: var(--white-color);
+    color: var(--black-color);
     min-height: 100vh;
+
 }
 
 header {
+    background: var(--border-color);
     position: sticky;
     opacity: 0.8;
     z-index: 1000;
     top: 0;
-    background-color: var(--banner-color);
     height: 10rem;
     display: flex;
     align-items: center;
@@ -47,7 +52,6 @@ header .wrapper {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    margin: 0 auto;
 }
 
 header nav {
@@ -76,4 +80,157 @@ header nav a {
     width: auto;
     height: 100%;
     object-fit: contain;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 4rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/*index.html css*/
+/*left-section*/
+.left-section {
+    flex: 1;
+    max-width: 40%;
+    margin-top: 3rem;
+}
+
+.left-section h3 {
+    margin-bottom: 5px;
+    font-size: 40px;
+}
+
+.left-section p {
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.search-button,
+.info-button {
+    background: none;
+    border: none;
+    cursor: pointer; 
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.info-button img, .search-button img {
+    width: 2rem;
+    height: auto;
+}
+
+/*right-section */
+.right-section {
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.right-section p {
+    font-size: 20px;
+    padding: 1.5rem;
+}
+.right-section h2 {
+    font-size: 35px;
+    padding: 1.5rem;
+}
+
+.sliding-picture {
+    position: relative;
+    width: 80%;
+    max-width: 500px;
+    height: 500px;
+    overflow: hidden;
+    display: flex; 
+    border: 6px, solid, var(--border-color);
+}
+
+.sliding-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.sliding-picture img.active {
+    opacity: 1;
+}
+
+.prev-btn,
+.next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    border: 2px solid var(--grey-background-color);
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    opacity: 1;
+    visibility: hidden;
+}
+
+.sliding-picture:hover .prev-btn,
+.sliding-picture:hover .next-btn {
+    opacity: 1;
+    visibility: visible;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+
+/*lower banner*/
+.banner-bottom {
+    position: fixed;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+    border: 2px, solid, var(--black-color);
+}
+
+.banner-bottom .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.banner-bottom p {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+    color: var(--black-color);
+}
+
+.banner-bottom .social-icons {
+    display: flex;
+    gap: 40px;
+}
+
+.banner-bottom .social-icons a img {
+    width: 50px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.banner-bottom .social-icons a img:hover {
+    transform: scale(1.1);
 }

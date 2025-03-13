@@ -7,24 +7,88 @@
     <title>Homepage</title>
 </head>
 <body>
-    <!--Top bar section-->
-  <div class="banner">
-    <header>
-      <div class="wrapper">
-        <div class="logo">
-          <img src="images/logo.png" alt="logo" class="logo-img">
-        </div>
-        
-        <nav>
-          <a href="index.html">Home</a>
-          <a href="archive.html">Language Archive</a>
-          <a href="about.html">About</a>
-        </nav>
+    <!-- Top bar section -->
+    <div class="banner">
+        <header>
+            <div class="wrapper">
+                <div class="logo">
+                    <img src="images/logo.png" alt="logo" class="logo-img">
+                </div>
 
-        <div class="search">
-            <a href="interface.html"><img src="images/search.png" alt="search"></a>
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="archive.html">Language Archive</a>
+                    <a href="about.html">About</a>
+                </nav>
+
+                <div class="search">
+                    <a href="interface.html">
+                        <img src="images/search.png" alt="search">
+                    </a>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <!--Text section-->
+    <div class="hero">
+        <!--Information section-->
+        <div class="left-section">
+            <h3>Find language resources</h3>
+            <p>Use OLAC'S search engine here: 
+                <button class="search-button">
+                    <img src="images/smallsearch.png" alt="search">
+                </button>
+            </p>
+
+            <h3>Our mission</h3>
+            <p>OLAC, the Open Language Archives Community, is an international partnership of institutions and individuals who are creating a worldwide virtual library of language resources by:
+                <br> (i) developing consensus on best current practice for the digital archiving of language resources, and 
+                <br> (ii) developing a network of interoperating repositories and services for housing and accessing such resources.
+            </p>
+        
+            <h3>Join us!</h3>
+            <p>Sign-up for the <a href="#">OLAC mailing list</a> to stay current with standards and best practices for language resource archiving (<a href="#">Archives</a>).</p>
+            <p>The OLAC coordinators can be contacted <a href="#">via email</a>.</p>
+
+            <h3>What's next?</h3>
+            <p>Discover more at one of our events here: 
+                <button class="info-button">
+                    <img src="images/info.png" alt="info">
+                </button>
+            </p>
         </div>
-      </div>
-    </header>
+
+        <!--Highlights and insights slideshow-->
+        <div class="right-section">
+            <h2>Hightlights & Insights</h2>
+            <div class="sliding-picture">
+                <img src="images/example1.png" alt="photo1" class="active">
+                <img src="images/example2.png" alt="photo2">
+                <img src="images/example3.png" alt="photo3">
+        
+                <button class="prev-btn">&lt;</button>
+                <button class="next-btn">&gt;</button>
+            </div>
+            <p class="caption">Slideshow of interesting language archives</p>
+        </div>
+    </div>
+
+    <!--Footer with social medai and copyright-->
+    <div class="banner-bottom">
+        <footer>
+            <div class="wrapper">
+                <p>Copyright © 2025</p>
+                <p>Contact: Group 10</p>
+                <div class="social-icons">
+                    <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+                    <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="images/gmail.png" alt="Gmail"></a>
+                    <a href="#"><img src="images/twitter.png" alt="X"></a>
+                </div>
+            </div>
+        </footer>
+    </div>    
+<script src="main.js"></script>
 </body>
 </html>
