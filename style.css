@@ -33,6 +33,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    overflow: hidden; /* Ensure text doesn't appear outside of the header */
 }
 
 .logo {
@@ -52,22 +53,27 @@ header .wrapper {
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    height: auto; /* Adjust height to fit two rows */
 }
 
 header nav {
     display: flex;
-    gap: 5rem;
+    gap: 1rem;
     text-align: right;
     margin-left: auto;
-    margin-right: 5rem;
+    margin-right: 1rem;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    height: auto; /* Adjust height to fit two rows */
 }
 
 header nav a {
     text-decoration: none;
-    font-size: 35px;
-    padding: 8px 30px;
+    font-size: 20px;
+    padding: 8px 15px;
     color: var(--white-color);
     font-weight: bold;
+    flex: 1 1 20%; /* Adjust flex properties to fit two items per row */
 }
 
 .search {
@@ -197,11 +203,11 @@ header nav a {
 
 /*lower banner*/
 .banner-bottom {
-    position: fixed;
     padding: 10px 0;
-    bottom: 0;
     width: 100%;
     border: 2px, solid, var(--black-color);
+    position: absolute; /* Change position to absolute */
+    bottom: 0; /* Ensure it stays at the bottom of the page */
 }
 
 .banner-bottom .wrapper {
