@@ -53,8 +53,8 @@ header .wrapper {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    flex-wrap: wrap; /* Allow items to wrap to the next line */
-    height: auto; /* Adjust height to fit two rows */
+    flex-wrap: wrap; 
+    height: auto; 
 }
 
 header nav {
@@ -63,8 +63,8 @@ header nav {
     text-align: right;
     margin-left: auto;
     margin-right: 1rem;
-    flex-wrap: wrap; /* Allow items to wrap to the next line */
-    height: auto; /* Adjust height to fit two rows */
+    flex-wrap: wrap;
+    height: auto; 
 }
 
 header nav a {
@@ -73,7 +73,7 @@ header nav a {
     padding: 8px 15px;
     color: var(--white-color);
     font-weight: bold;
-    flex: 1 1 20%; /* Adjust flex properties to fit two items per row */
+    flex: 1 1 20%; 
 }
 
 .search {
@@ -206,8 +206,8 @@ header nav a {
     padding: 10px 0;
     width: 100%;
     border: 2px, solid, var(--black-color);
-    position: absolute; /* Change position to absolute */
-    bottom: 0; /* Ensure it stays at the bottom of the page */
+    position: fixed
+    bottom: 0;
 }
 
 .banner-bottom .wrapper {
