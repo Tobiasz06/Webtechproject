@@ -88,6 +88,13 @@ header nav a {
     object-fit: contain;
 }
 
+table {
+    width: 100%;
+    border-spacing: 4;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
 /* Hero Section */
 .hero {
     display: flex;
@@ -206,7 +213,7 @@ header nav a {
     padding: 10px 0;
     width: 100%;
     border: 2px, solid, var(--black-color);
-    position: fixed
+    position: fixed;
     bottom: 0;
 }
 
@@ -261,6 +268,7 @@ header nav a {
     text-align: center;
 }
 
+
 .full-width-block .links {
     display: flex;
     justify-content: space-around;
@@ -271,6 +279,15 @@ header nav a {
     text-decoration: none;
     color: var(--border-color);
     font-weight: bold;
+}
+
+.full-width-block-text-left {
+    background-color: var(--light-banner-color);
+    padding: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
 }
 
 .row {
