@@ -328,8 +328,8 @@ header nav a {
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
-    margin-left: 12rem;
-    margin-right: 12rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
 }
 
 
@@ -349,8 +349,8 @@ header nav a {
 .row {
     display: flex;
     justify-content: space-between;
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
 }
 
 .column {
@@ -370,8 +370,12 @@ header nav a {
     min-height: 100px;
 }
 
-.block h3 {
+.full-width-block h2 {
     margin-bottom: 0.5rem;
+}
+
+.block h2 {
+    margin-bottom: 1rem;
 }
 
 .block p {
@@ -381,7 +385,17 @@ header nav a {
 
 .block ul li {
     margin-left: 1.5rem;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
+}
+
+.image-container {
+    display: flex;
+    gap: 5rem;
+    margin-top: 2rem;
+    justify-content: center;
+  }
+.image-container img {
+    height: 50px;
 }
 
 /*Search interface page*/
