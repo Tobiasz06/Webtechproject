@@ -13,6 +13,7 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+//end collapsible text
 
 let currentIndex = 0;
 const images = document.querySelectorAll('.sliding-picture img');
