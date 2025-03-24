@@ -90,7 +90,7 @@ header nav a {
 
 
 
-/* docuemtns.html css */
+/* docuements.html css */
 .subtext {
     font-size: 14px;
     color: var(--grey-background-color);
@@ -304,6 +304,8 @@ table {
     transform: scale(1.1);
 }
 
+/*about page css*/
+
 .content-section {
     padding: 2rem 0;
 }
@@ -314,6 +316,7 @@ table {
     gap: 2rem;
     padding: 0 2rem; 
 }
+/*content blocks*/
 
 .full-width-block {
     background-color: var(--light-banner-color);
