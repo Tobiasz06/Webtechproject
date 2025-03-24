@@ -36,7 +36,10 @@
     <div class="content-section">
         <div class="wrapper">
             <div class="full-width-block">
-                <!-- Add your content here -->
+              <h1>OLAC Metadata and Resources</h1>
+              <p>Explore comprehensive metadata, tools, and resources related to the Open Language Archives Community (OLAC). 
+                Access metadata dumps, validation tools, schema definitions, 
+                and essential documentation for language resource interoperability.</p>          
             </div>
             <div class="row">
                 <div class="column">
@@ -48,7 +51,7 @@
                           <li><a href="#">An OAI data provider containing all OLAC records</a></li>
                         </ul>
                     </div>
-                    
+
                     <div class="block">
                       <h2>Data Providers</h2>
                       <ul>
@@ -77,29 +80,75 @@
                         <li><a href="#">OLAC metadata can be stored in a relational database. Here is the schema used by all OLAC services: olac_schema.sql</a></li>
                       </ul>
                     </div>
+
                     <div class="block">
-                        <!-- Add your content here -->
-                    </div>
-                    <div class="block">
-                        <!-- Add your content here -->
+                        <h2>OLAC Logo</h2>
+                        <p>Please make use of the <a href="#">OLAC Logo</a> on your site, and link it to www.language-archives.org.</p>
                     </div>
                 </div>
+
                 <div class="column">
                     <div class="block">
-                        <!-- Add your content here -->
+                      <h2>Simple Search for OLAC Records</h2>
+                      <div>
+                        <label for="search-term">Enter a single search term, to be matched against any OLAC field:</label><br>
+                        <input type="text" id="search-term" name="search-term" placeholder="Enter search term">
+                        <button type="button" onclick="alert('Search functionality to be implemented')">Search</button>
+                    </div>
+
                     </div>
                     <div class="block">
-                        <!-- Add your content here -->
+                      <h2>Look up an OLAC Item</h2>
+                      <div>
+                        <label for="oai-identifier">Enter the OAI identifier for a record in any OLAC archive:</label><br>
+                        <input type="text" id="oai-identifier" name="oai-identifier" placeholder="Enter OAI identifier">
+                        <button type="button" onclick="alert('Look up functionality to be implemented')">Look Up</button>
+                      </div>
                     </div>
                     <div class="block">
-                        <!-- Add your content here -->
+                      <h2>List Records from an OLAC Archive</h2>
+                      <div>
+                        <label for="archive-identifier">Enter the OAI identifier for any OLAC archive (submit a blank query to see a list of archives):</label><br>
+                        <input type="text" id="archive-identifier" name="archive-identifier" placeholder="Enter archive OAI identifier">
+                        <button type="button" onclick="alert('List records functionality to be implemented')">List Records</button>
+                      </div>
                     </div>
                     <div class="block">
-                        <!-- Add your content here -->
+                      <h2>OLAC-Implementers Mailing List</h2>
+                      <p>OLAC-Implementers is an unmoderated list for technical discussions concerning the implementation of OLAC repositories (<a href="#">LIST ARCHIVES</a>).</p>
+                      
+                      <div>
+                        <label for="name">NAME:</label><br>
+                        <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+                      
+                        <label for="email">EMAIL:</label><br>
+                        <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+                      
+                        <button type="button" onclick="alert('Subscription functionality to be implemented')">Subscribe</button>
+                      </div>
+                      
                     </div>
                     <div class="block">
-                        <!-- Add your content here -->
+                      <h2>OAI and DCMI Documents</h2>
+                      <p>OLAC is based on the Open Archives Initiative and the Dublin Core Metadata Initiative. Several OAI and DCMI documents are relevant to OLAC:</p>
+                      <ul>
+                        <li><a href="#">Exposing and Harvesting Metadata Using the OAI Metadata Harvesting Protocol: A Tutorial</a></li>
+                        <li><a href="#">OAI Protocol for Metadata Harvesting</a></li>
+                        <li><a href="#">The OAI: Building a low-barrier interoperability framework</a></li>
+                        <li><a href="#">Dublin Core Element Set</a></li>
+                        <li><a href="#">More OAI documents...</a></li>
+                      </ul>
                     </div>
+                    <div class="block">
+                      <h2>Useful Resources</h2>
+                      <ul>
+                        <li><a href="#">Language Codes: Ethnologue tables | ISO 639-3 tables</a></li>
+                        <li><a href="#">OAI: Protocol | tutorial | FAQ | tools | Registration</a></li>
+                        <li><a href="#">Dublin Core Element Set</a></li>
+                        <li><a href="#">Repository Explorer: 1.0/1.1/2.0</a></li>
+                        <li><a href="#">XML Schema: XML Schema | W3C Primer | XML.com Tutorial | Resources at OASIS | XSV Schema Validator | XSV Status | Xerces-J Schema Validator</a></li>
+                      </ul>
+                  </div>
                 </div>
             </div>
         </div>
