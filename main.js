@@ -1,4 +1,4 @@
-//collapsible text
+//collapsible text documents.html
 var coll = document.getElementsByClassName("collapsible");
 var i;
 
@@ -15,6 +15,7 @@ for (i = 0; i < coll.length; i++) {
 }
 //end collapsible text
 
+//sliding image and clickable buttons index.html
 let currentIndex = 0;
 const images = document.querySelectorAll('.sliding-picture img');
 const prevButton = document.querySelector('.prev-btn');
@@ -57,4 +58,5 @@ prevButton.addEventListener('click', () => {
 
 showImage(currentIndex);
 startAutoSlide();
+//end sliding image
 
