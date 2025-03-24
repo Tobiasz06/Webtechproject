@@ -9,6 +9,10 @@
     --light-banner-color: rgb(239, 242, 254);
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -26,7 +30,6 @@ body {
 header {
     background: var(--border-color);
     position: sticky;
-    opacity: 0.8;
     z-index: 1000;
     top: 0;
     height: 7rem;
@@ -84,67 +87,72 @@ header nav a {
     object-fit: contain;
 }
 
+.indented {
+    padding-left: 20px;
+}
 
 
 /* documents.html css */
-.subtext {
-    font-size: 14px;
-    color: var(--grey-background-color);
-}
+    .subtext {        font-size: 14px;
+        color: var(--grey-background-color);
+    }
 
-table {
-    width: 100%;
-    border-spacing: 4;
-    border-collapse: collapse;
-    margin: 0 auto;
-}
+    .documents-table {
+        width: 100%;
+        border-spacing: 4;
+        border-collapse: collapse;
+        margin: 0 auto;
+    }
 
-.full-width-block-text-left {
-    background-color: var(--light-banner-color);
-    padding: 1rem;
-    border: 1px solid var(--border-color);
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: left;
-}
+    .full-width-block-text-left {
+        background-color: var(--light-banner-color);
+        padding: 1rem;
+        border: 1px solid var(--border-color);
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        text-align: left;
+    }
+    /* end of documents.html css */
 
-/* Style the button that is used to open and close the collapsible content */
-.collapsible {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-  }
-  
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .collapsible:hover {
-    background-color: #ccc;
-}
+/* collapsible text section */
+    /* Style the button that is used to open and close the collapsible content */
+    .collapsible {
+        background-color: #e0e0e0;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+    }
+    
+    /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+    .active, .collapsible:hover {
+        background-color: #bebebe;
+    }
 
-/* Style the collapsible content. Note: hidden by default */
-.collapsible-content {
-    padding: 0 18px;
-    background-color: white;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-  }
-.collapsible:after {
-    content: '\02795';
-    font-size: 13px;
-    color: white;
-    float: right;
-    margin-left: 5px;
-  }
-  
-  .active:after {
-    content: "\2796"; 
-  }
+    /* Style the collapsible content. Note: hidden by default */
+    .collapsible-content {
+        padding: 0 18px;
+        background-color: #ebebeb;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+    }
+    .collapsible:after {
+        content: '\02795';
+        font-size: 13px;
+        color: white;
+        float: right;
+        margin-left: 5px;
+    }
+    
+    .active:after {
+        content: "\2796"; 
+    }
+    /* end of collapsible text section */
   
 
 /* Hero Section */

@@ -44,10 +44,10 @@
             which include documents that have been retired or withdrawn.
           </p>
           <div>
-          <table>
+          <table class="documents-table">
             <tr>
               <td>
-              <a href="#">Standards</a>
+              <a href="#standards-section">Standards</a>
               </td>
               <td>
               <p>OLAC Standards specify how the Open Language Archives Community operates.</p>
@@ -55,7 +55,7 @@
             </tr>
             <tr>
               <td>
-                <a href="#">Recommendations</a>
+                <a href="#recommendations-section">Recommendations</a>
               </td>
               <td>
                 <p>OLAC Recommendations express the consensus of members of the Open Language Archives Community regarding various aspects of language resource archiving.</p>
@@ -63,7 +63,7 @@
             </tr>
             <tr>
               <td>
-                <a href="#">Notes</a>
+                <a href="#notes-section">Notes</a>
               </td>
               <td>
                 <p>	OLAC Notes offer background information and helps for implementors of language archives.</p>
@@ -74,45 +74,85 @@
         </div>
       </div>
 
-      <div class="wrapper">
+
+      <div class="wrapper" id="standards-section">
         <div class="full-width-block-text-left">
           <button type="button" class="collapsible">Standards</button>
           <div class="collapsible-content">
+              <h4><a href="#">OLAC Metadata</a> [2008-05-31]</h4>
+              <p class="indented"><i>Standard.</i> This document defines the format used by the Open Language Archives Community OLAC for the interchange of metadata within the framework of the Open Archives Initiative OAI. 
+                The metadata set is based on the complete set of Dublin Core metadata terms DCMT, 
+                but the format allows for the use of extensions to express community-specific qualifiers.</p>
 
-            <h4><a href="#">OLAC Metadata</a> [2008-05-31]</h4>
-            <p><i>Standard.</i> This document defines the format used by the Open Language Archives Community OLAC for the interchange of metadata within the framework of the Open Archives Initiative OAI. 
-              The metadata set is based on the complete set of Dublin Core metadata terms DCMT, 
-              but the format allows for the use of extensions to express community-specific qualifiers.</p>
-
-            <h4><a href="#">OLAC Process</a> [2006-04-05]</h4>
-            <p><i>Standard.</i> This document summarizes the governing ideas of OLAC (i.e. the purpose, vision, and core values) 
-              and then describes how OLAC is organized and how it operates.</p>
+              <h4><a href="#">OLAC Process</a> [2006-04-05]</h4>
+              <p class="indented"><i>Standard.</i> This document summarizes the governing ideas of OLAC (i.e. the purpose, vision, and core values) 
+                and then describes how OLAC is organized and how it operates.</p>
 
             <h4><a href="#">OLAC Repositories</a> [2008-07-28]</h4>
-            <p><i>Standard.</i> This document defines the standards OLAC archives must follow in implementing a metadata repository.</p>
+            <p class="indented"><i>Standard.</i> This document defines the standards OLAC archives must follow in implementing a metadata repository.</p>
           </div>
         </div>
       </div>
 
-      <div class="wrapper">
+      <div class="wrapper" id="recommendations-section">
         <div class="full-width-block-text-left">
           <button type="button" class="collapsible">Recommendations</button>
           <div class="collapsible-content">
-            <p>Lorem ipsum...</p>
+            <h4><a href="#">Best Practice Recommendations for Language Resource Description</a> [2008-07-11]</h4>
+            <p class="indented"><i>Recommendation.</i> This document expresses the consensus of the Open Language Archives Community on best practice recommendations for language resource description using the OLAC metadata standard OLAC-Metadata.</p>
+      
+            <h4><a href="#">OLAC Discourse Type Vocabulary</a> [2012-02-04]</h4>
+            <p class="indented"><i>Recommendation.</i> This document specifies the codes, or controlled vocabulary, for the Discourse Type extension of the Type metadata element. These codes describe the content of a resource as structured in such a way as to represent a particular type of discourse.</p>
+      
+            <h4><a href="#">OLAC Language Extension</a> [2008-02-22]</h4>
+            <p class="indented"><i>Recommendation.</i> This document specifies the metadata extension used by OLAC to uniquely identify languages. It uses the three-letter identifiers of ISO 639-3 as its controlled vocabulary.</p>
+      
+            <h4><a href="#">OLAC Linguistic Data Type Vocabulary</a> [2006-04-06]</h4>
+            <p class="indented"><i>Recommendation.</i> This document specifies the codes, or controlled vocabulary, for the Linguistic Data Type extension of the DCMI Type element. These codes describe the content of a resource from the standpoint of recognized structural types of linguistic information.</p>
+      
+            <h4><a href="#">OLAC Linguistic Subject Vocabulary</a> [2006-04-06]</h4>
+            <p class="indented"><i>Recommendation.</i> This document specifies the codes, or suggested vocabulary, for the 'linguistic' value of the xsi:type attribute of the OLAC Subject element. These codes describe the content of a resource as about a particular subfield of linguistic science, or about the level of linguistic structure which is the primary concern of a given subfield.</p>
+      
+            <h4><a href="#">OLAC Role Vocabulary</a> [2006-04-06]</h4>
+            <p class="indented"><i>Recommendation.</i> Role is an attribute of both the Creator and Contributor elements. (Please note that Dublin Core now discourages the use of the Creator element, recommending that all Role information be associated with Contributor elements.) This document specifies the controlled vocabulary of the Role attribute used by OLAC. This attribute specifies the functional role of the entity named in the creation of a given resource.</p>
+      
+            <h4><a href="#">Recommended Metadata Extensions</a> [2008-02-22]</h4>
+            <p class="indented"><i>Recommendation.</i> This document lists all the metadata extensions that are recommended by the Open Language Archives Community for use in describing language resources.</p>
           </div>
         </div>
       </div>
+      
 
-      <div class="wrapper">
+      <div class="wrapper" id="notes-section">
         <div class="full-width-block-text-left">
           <button type="button" class="collapsible">Notes</button>
           <div class="collapsible-content">
-            <p>Lorem ipsum...</p>
+            <h4><a href="#">A Query Facility for Selective Harvesting of OLAC Metadata</a> [2003-07-29]</h4>
+            <p class="indented"><i>Draft Implementation Note.</i> Documents a verb, Query, supported by the CGI interface to the OLAC Aggregator. The purpose of the verb is to support selective harvesting of OLAC metadata, such as would be needed in order to offer a specialized service based on OLAC metadata. The request returns a ListRecords response; its parameters support the construction of an SQL query to specify the subset of records to harvest.</p>
+      
+            <h4><a href="#">Creating OLAC Records and Repositories in Toolbox</a> [2006-09-28]</h4>
+            <p class="indented"><i>Draft Implementation Note.</i> This Note presents a framework for creating OLAC static repositories from a collection of records created and maintained as a Toolbox database.</p>
+      
+            <h4><a href="#">OLAC Metadata Metrics</a> [2009-06-29]</h4>
+            <p class="indented"><i>Informational Note.</i> Explains the metrics that are implemented on the OLAC web site for summarizing the coverage of the participating archives and for evaluating the quality of their metadata records.</p>
+      
+            <h4><a href="#">OLAC Metadata Usage Guidelines</a> [2008-07-11]</h4>
+            <p class="indented"><i>Informational Note.</i> This document provides guidelines on the meaning and proper usage of the metadata elements used in the metadata standard of the Open Language Archives Community.</p>
+      
+            <h4><a href="#">Specifications for the OLAC Metadata Display Format and the OLAC-to-OAI_DC Crosswalk</a> [2009-07-23]</h4>
+            <p class="indented"><i>Proposed Informational Note.</i> In addition to the OLAC metadata format, the OLAC Aggregator (OLACA) serves records in two other formats: olac_display and oai_dc. This document provides the specification for how an OLAC record is transformed into these other two formats. The first of these formats is a reader-friendly view of OLAC metadata that may be used by someone building a service that displays OLAC metadata; it translates coded values into their human-readable equivalents. The latter format is the standard format used by the Open Archives Initiative (OAI) for metadata interchange. Thus, the OLAC Aggregator serves as a crosswalk that transforms the OLAC format records supplied by OLAC's participating archives to oai_dc format records that can be used by the wider OAI community.</p>
+      
+            <h4><a href="#">Third Party Extensions</a> [2002-12-04]</h4>
+            <p class="indented"><i>Draft Informational Note.</i> This document lists third-party metadata extensions that are known to be compatible with the OLAC Metadata standards. They have not attained the status of OLAC Recommendations, but data providers are encouraged to try any that seem relevant to the nature of their collection.</p>
+      
+            <h4><a href="#">Viser: A Virtual Service Provider for Displaying Selected OLAC Metadata</a> [2003-07-29]</h4>
+            <p class="indented"><i>Draft Implementation Note.</i> Documents a service named Viser, hosted on the OLAC web site, that allows language resource sites to post services based on OLAC metadata without having to implement a conventional service provider. Viser works in conjunction with the query facility of the OLAC Aggregator to selectively harvest OLAC metadata and then provide HTML displays of records that match a query. The service returns an XML document with processing instructions to invoke an XSL stylesheet and set certain display parameters; the actual rendering to HTML happens in the client's browser.</p>
           </div>
         </div>
       </div>
-
     </div>
+  </div>
+
 
 
     <!--Footer with social medai and copyright-->
