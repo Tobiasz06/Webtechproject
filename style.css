@@ -192,7 +192,7 @@ header nav a {
     font-size: 20px;
 }
 
-.search-button,
+.-button,
 .info-button {
     background: none;
     border: none;
@@ -474,7 +474,7 @@ header nav a {
     border: none;
     height: 100%;
     cursor: pointer;
-    background: #7a7af3;
+    background: #7a7af3;    
 }
 
 .search-btn img {

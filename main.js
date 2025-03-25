@@ -15,6 +15,10 @@ var i;
   }
   //end collapsible text
 
+//interface.html button search interface functionality
+  const searchQuery = new URLSearchParams(window.location.search).get('search');
+  //end button search interface functionality
+
 //sliding image and clickable buttons index.html
 let currentIndex = 0;
 const images = document.querySelectorAll('.sliding-picture img');
