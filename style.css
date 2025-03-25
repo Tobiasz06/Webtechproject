@@ -104,20 +104,24 @@ header nav a {
         margin: 0 auto;
     }
 
-    .full-width-block-text-left {
-        background-color: var(--light-banner-color);
-        padding: 1rem;
-        border: 1px solid var(--border-color);
-        border-radius: 5px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        text-align: left;
+    .full-width-block-text-left p {
+        margin-bottom: 0.6rem;
     }
 
-    .full-width-block-text-left ul li {
-        margin-left: 1.5rem;
-        margin-top: 0.5rem;
+    .full-width-block-text-left td a {
+        display: block; /* Make <a> a block element */
+        margin-bottom: 0.6rem; /* Adjust the margin as needed */
     }
+    
     /* end of documents.html css */
+
+/* Language resources pages css */
+        .online {
+        color: green;
+        font-weight: bold;
+    }
+    /*end of Taushiro-language-Valerio.html css */
+
 
 /* collapsible text section */
     /* Style the button that is used to open and close the collapsible content */
@@ -323,6 +327,7 @@ header nav a {
     flex-direction: column;
     gap: 2rem;
     padding: 0 2rem; 
+    margin-bottom: 2rem;
 }
 /*content blocks*/
 
@@ -350,6 +355,21 @@ header nav a {
     font-weight: bold;
 }
 
+    .full-width-block-text-left {
+        background-color: var(--light-banner-color);
+        padding: 1rem;
+        border: 1px solid var(--border-color);
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        text-align: left;
+        margin-left: 10rem;
+        margin-right: 10rem; 
+    }
+
+    .full-width-block-text-left ul li {
+        margin-left: 1.5rem;
+        margin-top: 0.5rem;
+    }
 
 .row {
     display: flex;
@@ -480,7 +500,8 @@ header nav a {
     margin-left: 1.5rem;
 }
 
-/* news page /* 
+/* news page*/
+
 .date{
     color: grey;
 }
