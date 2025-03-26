@@ -24,7 +24,15 @@ body {
     background: linear-gradient(to bottom, var(--white-color), var(--grey-background-color));
     color: var(--black-color);
     min-height: 100vh;
+    font-size: 23px;
+}
 
+a {
+    text-decoration: none !important;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
 }
 
 header {
@@ -94,7 +102,7 @@ header nav a {
 
 /* documents.html css */
 .subtext {
-    font-size: 14px;
+    font-size: 18px;
     color: var(--grey-background-color);
 }
 
@@ -180,7 +188,7 @@ header nav a {
 
 .left-section p {
     margin-bottom: 25px;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .search-button,
@@ -333,6 +341,16 @@ header nav a {
     margin-right: 10rem;
 }
 
+.full-width-block h2 {
+    text-align: center;
+    margin-left: auto;
+}
+
+.full-width-block a {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .full-width-block .links {
     display: flex;
