@@ -766,7 +766,7 @@ h2 {
 .archive-links a {
     margin-right: 10px;
     text-decoration: none;
-    color: var(--dark-blue-color);
+    color: var(--border-color);
     font-size: 12px;
 }
 
