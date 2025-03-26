@@ -115,8 +115,20 @@ header nav a {
 
 .documents-table {
     width: 100%;
-    border-spacing: 4px;
-    margin: 0 auto;
+    border-spacing: 8px;
+    border-collapse: collapse;
+    text-align: left;
+    margin-right: 4px;
+}
+
+
+.full-width-block-text-left p {
+    margin-bottom: 0.6rem;
+}
+
+.full-width-block-text-left th a {
+    display: block;
+    margin-bottom: 0.6rem;
 }
 
 .online {
@@ -362,12 +374,12 @@ header nav a {
 }
 
 .full-width-block-text-left {
+    text-align: left;
     background-color: var(--light-banner-color);
     padding: 1rem;
     border: 1px solid var(--border-color);
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: left;
     margin-left: 10rem;
     margin-right: 10rem; 
 }
