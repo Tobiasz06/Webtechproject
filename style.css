@@ -108,20 +108,9 @@ header nav a {
 
 .documents-table {
     width: 100%;
-    border-spacing: 4;
-    border-collapse: collapse;
+    border-spacing: 4px;
     margin: 0 auto;
 }
-
-.full-width-block-text-left p {
-    margin-bottom: 0.6rem;
-}
-
-.full-width-block-text-left td a {
-    display: block;
-    margin-bottom: 0.6rem;
-}
-
 
 .online {
     color: green;
@@ -221,6 +210,8 @@ header nav a {
 .right-section h2 {
     font-size: 35px;
     padding: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .sliding-picture {
@@ -579,8 +570,7 @@ h2 {
 }
 
 .full-width-block .column.right {
-    margin-top: 120px;
-    text-align: left;
+    text-align: right;
 }
 .full-width-block .column.left h2 {
     text-align: left;
