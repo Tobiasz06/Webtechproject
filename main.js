@@ -60,4 +60,3 @@ prevButton.addEventListener('click', () => {
 showImage(currentIndex);
 startAutoSlide();
 //end sliding image
-
