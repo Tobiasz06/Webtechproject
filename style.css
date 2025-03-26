@@ -111,7 +111,6 @@ header nav a {
     width: 100%;
     border-spacing: 8px;
     border-collapse: collapse;
-    padding-right:40px;
     text-align: left;
     margin-right: 4px;
 }
@@ -527,7 +526,6 @@ header nav a {
 
 h2 {
     text-align: left;
-    margin-left: 10rem;
     margin-bottom: 20px;
 }
 
