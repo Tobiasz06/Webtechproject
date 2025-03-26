@@ -1,53 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css">
-    <title>Document</title>
-</head>
-<body>
-    <!--Top bar section-->
-  <div class="banner">
-    <header>
-      <div class="wrapper">
-        <div class="logo">
-          <img src="../images/logo.png" alt="logo" class="logo-img">
-        </div>
-        
-        <nav>
-          <a href="../index.html"><u>Home</u></a>
-          <a href="archive.html">Language Archive</a>
-          <a href="about.html">About</a>
-          <a href="documents.html">Documents</a>
-          <a href="news.html">News</a>
-          <a href="services.html">Services</a>
-          <a href="tools.html">Tools</a>
-          <a href="organization.html">Organization</a>
-        </nav>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="../style.css">
+		<title>Document</title>
+	</head>
+	<body>
 
-        <div class="search">
-            <a href="interface.html"><img src="../images/search.png" alt="search"></a>
-        </div>
-      </div>
-    </header>
+		<!-- Top bar section -->
+		<div class="banner">
+			<header>
+				<div class="wrapper">
+					<div class="logo">
+						<img src="../images/logo.png" alt="logo" class="logo-img">
+					</div>
 
+					<nav>
+						<a href="../index.html"><u>Home</u></a>
+						<a href="archive.html">Language Archive</a>
+						<a href="about.html">About</a>
+						<a href="documents.html">Documents</a>
+						<a href="news.html">News</a>
+						<a href="services.html">Services</a>
+						<a href="tools.html">Tools</a>
+						<a href="organization.html">Organization</a>
+					</nav>
 
-    <!--Footer with social medai and copyright-->
-    <div class="banner-bottom">
-      <footer>
-          <div class="wrapper">
-              <p>Copyright © 2025</p>
-              <p>Contact: Group 10</p>
-              <div class="social-icons">
-                <a href="#"><img src="../images/instagram.png" alt="Instagram"></a>
-                <a href="#"><img src="../images/facebook.png" alt="Facebook"></a>
-                <a href="#"><img src="../images/gmail.png" alt="Gmail"></a>
-                <a href="#"><img src="../images/twitter.png" alt="X"></a>
-              </div>
+					<div class="search">
+						<a href="interface.html">
+							<img src="../images/search.png" alt="search">
+						</a>
+					</div>
+				</div>
+			</header>
+
+			<!-- Search section -->
+			<div class="hero-search">
+				<div class="search-header">
+					<h1>Search</h1>
+					<p>Find thousands of languages in our archive!</p>
+				</div>
+
+				<div class="search-box">
+					<input type="text" placeholder="Type your search here">
+					<a href="results.html">
+						<button class="search-btn">
+							<img src="../images/searchinterface.png" alt="Search">
+						</button>
+					</a>
+				</div>
+
+				<button class="search-filters" onclick="alert('Search requirements functionality to be implemented')">
+					<h3>Search requirements</h3>
+					<img src="../images/req_filter.png" alt="Filter">
+				</button>
+			</div>
+		</div>
+
+		<!-- Results section -->
+		<div class="results-container">
+			<h2>3/45 results</h2>
+
+			<div class="full-width-block-text-left">
+				<button type="button" class="collapsible">Taushiro</button>
+				<div class="collapsible-content">
+          <div class="collapsible-language">
+					  <p>General info and links: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+					  <a href="Taushiro-language-Valerio.html">Go to page</a>
           </div>
-      </footer>
-  </div>    
-<script src="main.js"></script>
-</body>
+				</div>
+			</div>
+
+			<div class="full-width-block-text-left">
+				<button type="button" class="collapsible">Language 2</button>
+				<div class="collapsible-content">
+          <div class="collapsible-language">
+					  <p>General info and links: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+					  <a href="#">Go to page</a>
+          </div>
+				</div>
+			</div>
+
+			<div class="full-width-block-text-left">
+				<button type="button" class="collapsible">Language 3</button>
+				<div class="collapsible-content">
+          <div class="collapsible-language">
+					  <p>General info and links: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+					  <a href="#">Go to page</a>
+          </div>
+				</div>
+			</div>
+      
+      <button class="search-bar" onclick="alert('Search bar functionality to be implemented')">
+        <img src="../images/search_bar.png" alt="search-bar">
+      </button>
+		</div>
+    <script src="../main.js"></script>
+	</body>
 </html>
