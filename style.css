@@ -709,9 +709,8 @@ h2 {
 }
 
 .collapsible-language a {
-    text-decoration: none;
     font-size: 1rem;
-    color: var(--light-banner-color); 
+    color: var(--dark-blue-color); 
 }
 
 /* Style the search button */
