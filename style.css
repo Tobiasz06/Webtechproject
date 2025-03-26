@@ -326,7 +326,6 @@ header nav a {
     flex-direction: column;
     gap: 2rem;
     padding: 0 2rem; 
-    margin-bottom: 2rem;
 }
 /*content blocks*/
 
@@ -339,6 +338,7 @@ header nav a {
     text-align: center;
     margin-left: 10rem;
     margin-right: 10rem;
+    line-height: 40px; /*extra spacing for easier readablity*/
 }
 
 .full-width-block h2 {
