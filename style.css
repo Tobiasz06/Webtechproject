@@ -327,14 +327,13 @@ header nav a {
     border: 1px solid var(--border-color);
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center;
     margin-left: 10rem;
     margin-right: 10rem;
     line-height: 40px; /*extra spacing for easier readablity*/
 }
 
 .full-width-block h2 {
-    text-align: center;
+    text-align: left;
     margin-left: auto;
 }
 
