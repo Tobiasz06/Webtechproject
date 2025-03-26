@@ -690,14 +690,15 @@
 }
 
 /* Results page*/
-    .results-container {
-        margin-left: 6rem;
-        margin-right: 6rem;
-    }
+.results-container {
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
 
-h2 {
+.results-container h2 {
     text-align: left;
     margin-bottom: 20px;
+    margin-left: 10rem;
 }
 
 .collapsible-language {
