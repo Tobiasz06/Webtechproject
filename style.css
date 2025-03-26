@@ -25,6 +25,9 @@ body {
     color: var(--black-color);
     min-height: 100vh;
     font-size: 23px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 
 a {
@@ -285,6 +288,7 @@ header nav a {
     padding: 10px;
     width: 100%;
     border: 2px, solid, var(--black-color);
+    margin-top: auto;
 }
 
 .banner-bottom .wrapper {
@@ -321,7 +325,7 @@ header nav a {
 /*about page css*/
 
 .content-section {
-    padding: 2rem 0;
+    padding: 100px;
     flex: 1;
 }
 
@@ -339,7 +343,6 @@ header nav a {
     border: 1px solid var(--border-color);
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center;
     margin-left: 10rem;
     margin-right: 10rem;
     line-height: 40px; /*extra spacing for easier readablity*/
@@ -406,10 +409,6 @@ header nav a {
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     min-height: 100px;
-}
-
-.full-width-block h2 {
-    margin-bottom: 0.5rem;
 }
 
 .block h2 {
@@ -626,7 +625,7 @@ h2 {
 .status-icon {
     position: absolute;
     right: 180px;
-    margin-right: 5rem;
+    margin-right: 12rem;
     vertical-align: middle;
     text-align: right;
 }
